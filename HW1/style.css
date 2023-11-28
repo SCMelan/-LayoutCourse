@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  
+  input {
+    all: unset;
+  }
+  
+  .container {
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .header {
+    height: 75px;
+    background-color: #222;
+  }
+  .header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header_left-side {
+    display: flex;
+  }
+  .header_left-side > a {
+    margin-right: 41px;
+  }
+  .header_nav > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .header_nav > ul > li {
+    margin-right: 33px;
+  }
+  .header_nav > ul > li:nth-last-child() {
+    margin-right: 0;
+  }
+  
+  .home {
+    background-color: #F1E4E6;
+  }
+  .home_container {
+    height: 764px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .home_img {
+    width: 40%;
+    height: 100%;
+    align-self: flex-end;
+    background: url("../assets/home.png") no-repeat bottom center/contain;
+  }
+  .home_text {
+    position: relative;
+    padding-left: 28px;
+  }
+
+  .home_title {
+    display: flex;
+    color: #222;
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .home_subtitle {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .home_subtitle > span {
+    color: #F16D7F;
+  }
+  
+  .info {
+    padding: 65px 0 96px 0;
+  }
+  .info_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .info_card {
+    width: 33%;
+    margin-right: 30px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .info_card:first-child {
+    background: url("../assets/info_card-1.jpg");
+  }
+  .info_card:nth-child(2) {
+    background: url("../assets/info_card-2.jpg");
+  }
+  .info_card:last-child {
+    background: url("../assets/info_card-3.jpg");
+    margin-right: 0;
+  }
+  .info_card-title {
+    margin-bottom: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .info_card-subtitle {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .info_card-bottom {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../assets/info_card-4.jpg");
+  }
+  
+  .offer {
+    padding-bottom: 95px;
+  }
+  .offer_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+  .offer_card {
+    width: 31%;
+    margin-bottom: 30px;
+  }
+  .offer_cards:first-child .offer_card-img {
+    background: url("../assets/good_img-1.jpg");
+  }
+  .offer_card:nth-child(2) .offer_card-img {
+    background: url("../assets/good_img-2.jpg");
+  }
+  .offer_card:nth-child(3) .offer_card-img {
+    background: url("../assets/good_img-3.jpg");
+  }
+  .offer_card:nth-child(4) .offer_card-img {
+    background: url("../assets/good_img-4.jpg");
+  }
+  .offer_card:nth-child(5) .offer_card-img {
+    background: url("../assets/good_img-5.jpg");
+  }
+  .offer_card:nth-child(6) .offer_card-img {
+    background: url("../assets/good_img-6.jpg");
+  }
+  .offer_card-img {
+    height: 420px;
+  }
+  .offer_card-inner {
+    padding: 20px;
+    background-color: #F8F8F8;
+  }
+  .offer_card-title {
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .offer_card-description {
+    margin-bottom: 18px;
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .offer_card-price {
+    color: #F16D7F;
+    font-size: 16px;
+  }
+  .offer_link-wrapper {
+    text-align: center;
+  }
+  .offer_link {
+    border: 1px solid #F16D7F;
+    padding: 15px 40px;
+    color: #F16D7F;
+    background-color: #fff;
+  }
+
+  .competitive_advantages {
+    padding: 104px 0;
+    background-color: #222224;
+  }
+  .competitive_advantages_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .competitive_advantages_item {
+    width: 31%;
+    color: #fff;
+    text-align: center;
+  }
+  .competitive_advantages_img {
+    margin-bottom: 28px;
+  }
+  .competitive_advantages_title {
+    margin-bottom: 16px;
+    color: #FBFBFB;
+    font-size: 19.96px;
+  }
+  .competitive_advantages_description {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-weight: 300;
+  }
+  
+  .subscribe {
+    padding: 100px 0;
+    background: url("../assets/subscribe-bg.png") no-repeat center/cover;
+  }
+  .subscribe_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .subscribe_recommendation {
+    max-width: 360px;
+    text-align: center;
+  }
+  .subscribe_img {
+    margin-bottom: 30px;
+  }
+  .subscribe_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe_title {
+    color: #222224;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 167.2%;
+  }
+  .subscribe_description {
+    margin-bottom: 32px;
+    color: #222224;
+    font-size: 18px;
+    line-height: 167.2%;
+  }
+  .subscribe_form-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .subscribe_input {
+    width: 322px;
+    height: 49px;
+    padding: 7px 22px;
+    color: #222224;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: #E1E1E1;
+  }
+  .subscribe_button {
+    border: none;
+    height: 49px;
+    margin-left: -30px;
+    padding: 0 7px;
+    color: #fff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #E05C6E;
+  }
+  
+  .footer {
+    padding: 30px 0;
+    color: #fff;
+    background-color: #222224;
+  }
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .links_item {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    margin-right: 7px;
+  }
+  
